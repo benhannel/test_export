@@ -1,0 +1,36 @@
+PATH
+  remote: ./sequel-impala
+  specs:
+    sequel-impala (1.0.0)
+      sequel
+      thrift (~> 0.9.1)
+
+PATH
+  remote: ./sequelizer
+  specs:
+    sequelizer (0.0.6)
+      dotenv (~> 2.1.1)
+      hashie (~> 3.2)
+      sequel (~> 4.12)
+      thor (~> 0.19)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    dotenv (2.1.1)
+    hashie (3.4.4)
+    sequel (4.36.0)
+    thor (0.19.1)
+    thrift (0.9.3.0)
+
+PLATFORMS
+  java
+  ruby
+
+DEPENDENCIES
+  sequel
+  sequel-impala!
+  sequelizer!
+
+BUNDLED WITH
+   1.12.5
